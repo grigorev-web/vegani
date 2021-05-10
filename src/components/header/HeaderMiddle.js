@@ -17,30 +17,30 @@ export default function HeaderMiddle(props) {
           <nav className="header__menu">
             <ul>
               <li className="active">
-                <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
+                <Link to={`${process.env.PUBLIC_URL}/`}>Главная</Link>
               </li>
               <li>
-                <Link to={`${process.env.PUBLIC_URL}/shop`}>Shop</Link>
+                <Link to={`${process.env.PUBLIC_URL}/shop`}>Магазин</Link>
               </li>
               <li>
-                <a href="#/">Pages</a>
+                <a href="#/">Страницы</a>
                 <ul className="header__menu__dropdown">
                   <li>
-                    <Link to={`${process.env.PUBLIC_URL}/product`}>Product Page</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/product`}>Страница товара</Link>
                   </li>
                   <li>
-                    <Link to={`${process.env.PUBLIC_URL}/checkout`}>Shoping Cart</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/checkout`}>Корзина</Link>
                   </li>
                   <li>
-                    <Link to={`${process.env.PUBLIC_URL}/blog`}>Blog Details</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/blog`}>Статья блога</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to={`${process.env.PUBLIC_URL}/blog`}>Blog</Link>
+                <Link to={`${process.env.PUBLIC_URL}/blog`}>Блог</Link>
               </li>
               <li>
-                <Link to={`${process.env.PUBLIC_URL}/contacts`}>Contact</Link>
+                <Link to={`${process.env.PUBLIC_URL}/contacts`}>Контакты</Link>
               </li>
             </ul>
           </nav>
@@ -60,7 +60,7 @@ export default function HeaderMiddle(props) {
               </li>
             </ul>
             <div className="header__cart__price">
-              item: <span>$150.00</span>
+              корзина: <span>$150.00</span>
             </div>
           </div>
         </div>

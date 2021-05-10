@@ -33,7 +33,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Cairo", sans-serif;
+
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -422,7 +422,7 @@ ol {
 .header__menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 50px;
+	margin-right: 35px;
 	position: relative;
 }
 
@@ -671,7 +671,9 @@ ol {
 .hero__search__form form .hero__search__categories span {
 	position: absolute;
 	right: 14px;
-	top: 14px;
+	top: 12px;
+	color: darkgray;
+	cursor:pointer;
 }
 
 .hero__search__form form input {
@@ -747,6 +749,7 @@ ol {
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
+	text-shadow: 1px 1px 6px white;
 }
 
 .hero__text p {
