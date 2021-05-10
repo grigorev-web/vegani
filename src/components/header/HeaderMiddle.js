@@ -1,48 +1,46 @@
 import React from "react";
-import logo from '../../img/logo.png'
+import logo from "../../img/logo.png";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
-export default function HeaderMiddle() {
+export default function HeaderMiddle(props) {
   return (
     <div className="container">
       <div className="row">
         <div className="col-lg-3">
           <div className="header__logo">
-            <a href="./index.html">
+            <Link to="/">
               <img src={logo} alt="" />
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-lg-6">
           <nav className="header__menu">
             <ul>
               <li className="active">
-                <a href="./index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="./shop-grid.html">Shop</a>
+                <Link to="/shop">Shop</Link>
               </li>
               <li>
-                <a href="#">Pages</a>
+                <Link href="#/">Pages</Link>
                 <ul className="header__menu__dropdown">
                   <li>
-                    <a href="./shop-details.html">Shop Details</a>
+                    <Link to="/product">Product Page</Link>
                   </li>
                   <li>
-                    <a href="./shoping-cart.html">Shoping Cart</a>
+                    <Link to="/checkout">Shoping Cart</Link>
                   </li>
                   <li>
-                    <a href="./checkout.html">Check Out</a>
-                  </li>
-                  <li>
-                    <a href="./blog-details.html">Blog Details</a>
+                    <Link to="/blog">Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="./blog.html">Blog</a>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
-                <a href="./contact.html">Contact</a>
+                <Link to="/contacts">Contact</Link>
               </li>
             </ul>
           </nav>
@@ -51,12 +49,12 @@ export default function HeaderMiddle() {
           <div className="header__cart">
             <ul>
               <li>
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-heart"></i> <span>1</span>
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-shopping-bag"></i> <span>3</span>
                 </a>
               </li>
