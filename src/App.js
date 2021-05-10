@@ -9,6 +9,7 @@ function App() {
     page: "shop",
     status: 1,
   });
+ 
 
   return (
     <>

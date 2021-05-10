@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/vegani/build/static/css/main.f616018f.chunk.css",
-    "main.js": "/vegani/build/static/js/main.d217022f.chunk.js",
-    "main.js.map": "/vegani/build/static/js/main.d217022f.chunk.js.map",
+    "main.js": "/vegani/build/static/js/main.fcdda7d6.chunk.js",
+    "main.js.map": "/vegani/build/static/js/main.fcdda7d6.chunk.js.map",
     "runtime-main.js": "/vegani/build/static/js/runtime-main.017a786b.js",
     "runtime-main.js.map": "/vegani/build/static/js/runtime-main.017a786b.js.map",
-    "static/js/2.fd6244f6.chunk.js": "/vegani/build/static/js/2.fd6244f6.chunk.js",
-    "static/js/2.fd6244f6.chunk.js.map": "/vegani/build/static/js/2.fd6244f6.chunk.js.map",
+    "static/js/2.3b02d1ab.chunk.js": "/vegani/build/static/js/2.3b02d1ab.chunk.js",
+    "static/js/2.3b02d1ab.chunk.js.map": "/vegani/build/static/js/2.3b02d1ab.chunk.js.map",
     "index.html": "/vegani/build/index.html",
     "static/css/main.f616018f.chunk.css.map": "/vegani/build/static/css/main.f616018f.chunk.css.map",
-    "static/js/2.fd6244f6.chunk.js.LICENSE.txt": "/vegani/build/static/js/2.fd6244f6.chunk.js.LICENSE.txt"
+    "static/js/2.3b02d1ab.chunk.js.LICENSE.txt": "/vegani/build/static/js/2.3b02d1ab.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.017a786b.js",
-    "static/js/2.fd6244f6.chunk.js",
+    "static/js/2.3b02d1ab.chunk.js",
     "static/css/main.f616018f.chunk.css",
-    "static/js/main.d217022f.chunk.js"
+    "static/js/main.fcdda7d6.chunk.js"
   ]
 }

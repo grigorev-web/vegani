@@ -6,29 +6,29 @@ import Blog from "./pages/Blog";
 import Contacts from "./pages/Contacts";
 import Checkout from "./pages/Checkout";
 
-import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 export default function Main() {
   return (
     <div className="container">
       <div className="row">
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/vegani/build/">
             <MainPage />
           </Route>
-          <Route path="/blog">
+          <Route path="/vegani/build/blog">
             <Blog />
           </Route>
-          <Route path="/checkout">
+          <Route path="/vegani/build/checkout">
             <Checkout />
           </Route>
-          <Route path="/contacts">
+          <Route path="/vegani/build/contacts">
             <Contacts />
           </Route>
-          <Route path="/product">
+          <Route path="/vegani/build/product">
             <ProductPage />
           </Route>
-          <Route path="/shop">
+          <Route path="/vegani/build/shop">
             <ShopPage />
           </Route>
         </Switch>

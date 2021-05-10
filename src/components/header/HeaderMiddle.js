@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../img/logo.png";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function HeaderMiddle(props) {
   return (
@@ -17,30 +17,30 @@ export default function HeaderMiddle(props) {
           <nav className="header__menu">
             <ul>
               <li className="active">
-                <Link to="/">Home</Link>
+                <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
               </li>
               <li>
-                <Link to="/shop">Shop</Link>
+                <Link to={`${process.env.PUBLIC_URL}/shop`}>Shop</Link>
               </li>
               <li>
-                <Link href="#/">Pages</Link>
+                <a href="#/">Pages</a>
                 <ul className="header__menu__dropdown">
                   <li>
-                    <Link to="/product">Product Page</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/product`}>Product Page</Link>
                   </li>
                   <li>
-                    <Link to="/checkout">Shoping Cart</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/checkout`}>Shoping Cart</Link>
                   </li>
                   <li>
-                    <Link to="/blog">Blog Details</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/blog`}>Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <Link to={`${process.env.PUBLIC_URL}/blog`}>Blog</Link>
               </li>
               <li>
-                <Link to="/contacts">Contact</Link>
+                <Link to={`${process.env.PUBLIC_URL}/contacts`}>Contact</Link>
               </li>
             </ul>
           </nav>
@@ -54,9 +54,9 @@ export default function HeaderMiddle(props) {
                 </a>
               </li>
               <li>
-                <a href="#/">
+              <Link to={`${process.env.PUBLIC_URL}/checkout`}>
                   <i className="fa fa-shopping-bag"></i> <span>3</span>
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="header__cart__price">
