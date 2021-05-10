@@ -18,16 +18,16 @@ export default function HeaderTop() {
           <div className="col-lg-6 col-md-6">
             <div className="header__top__right">
               <div className="header__top__right__social">
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-facebook"></i>
                 </a>
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-twitter"></i>
                 </a>
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-linkedin"></i>
                 </a>
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-pinterest-p"></i>
                 </a>
               </div>
@@ -37,15 +37,15 @@ export default function HeaderTop() {
                 <span className="arrow_carrot-down"></span>
                 <ul>
                   <li>
-                    <a href="#">English</a>
+                    <a href="#/">English</a>
                   </li>
                   <li>
-                    <a href="#">Русский</a>
+                    <a href="#/">Русский</a>
                   </li>
                 </ul>
               </div>
               <div className="header__top__right__auth">
-                <a href="#">
+                <a href="#/">
                   <i className="fa fa-user"></i> Войти
                 </a>
               </div>
